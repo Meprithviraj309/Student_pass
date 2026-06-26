@@ -27,7 +27,7 @@ jobs:
 
       - name: Train Model
         run: |
-          python src/train_model.py
+          python src/train.py
 
       - name: Run Tests
         run: |
